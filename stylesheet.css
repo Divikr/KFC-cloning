@@ -139,6 +139,12 @@ nav{
   right:0px;
   z-index:-1px;
 }
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
 .header-title{
   color:white;
   font-size:14px;
@@ -402,6 +408,7 @@ nav{
   } 
   .find-kfc-container{
     display:flex;
+    width: 10%;
   }
   .kfc-footer-logo{
     width:60px;
@@ -444,6 +451,9 @@ nav{
   justify-content:space-between;
   width:100%;
   text-align:center;
+  position: relative;
+  bottom: 50px;
+  
 
 }
 .copy-right{
@@ -466,5 +476,8 @@ nav{
 .offers-container-title{
   display:flex;
 }
-
+.applogo{
+  display: flex;
+  flex-direction: row;
+}
 
